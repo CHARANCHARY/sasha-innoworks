@@ -53,8 +53,8 @@ export const WhyChoose = () => {
 
         <div className='container-test container'>
           <Slider {...settings}>
-            {testimonials.map((val) => (
-              <div className='box'>
+            {testimonials.map((val,index) => (
+              <div key={index} className='box'>
                 <i data-aos='zoom-out-up'>
                   <FormatQuoteIcon />
                 </i>

@@ -9,8 +9,8 @@ export const OurTeam = () => {
         <div className='container'>
           <Heading title='MEET OUR TEAM' />
           <div className='content grid3'>
-            {profiles.map((item) => (
-              <div className='our-box' data-aos='flip-left'>
+            {profiles.map((item,index) => (
+              <div key={index} className='our-box' data-aos='flip-left'>
                 <div  data-aos='fade-up'>
                   <img src={item.cover} className='team-img' alt='' data-aos='fade-down' />
                 </div>

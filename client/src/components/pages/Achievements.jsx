@@ -8,13 +8,13 @@ import aiimg from "../data/whychoose/ai-image-for-whychoose-us-removebg-preview.
 
 
 export const Achievements = () => {
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  }
+  // const settings = {
+  //   dots: false,
+  //   infinite: true,
+  //   speed: 500,
+  //   slidesToShow: 1,
+  //   slidesToScroll: 1,
+  // }
   return (
     <>
       <div className="achievemnets-main">

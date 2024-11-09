@@ -23,23 +23,22 @@ export const About = () => {
     document.body.removeChild(a);
   };
 
-  const handleMailClick = () => {
-    // Replace 'your-email@example.com' with your actual email address
-    const mailto = 'mailto:sashainnoworks@gmail.com';
+  // const handleMailClick = () => {
+  //   // Replace 'your-email@example.com' with your actual email address
+  //   const mailto = 'mailto:sashainnoworks@gmail.com';
     
-    // This will open the user's default email client with your email address
-    window.location.href = mailto;
-  };
+  //   // This will open the user's default email client with your email address
+  //   window.location.href = mailto;
+  // };
 
 
 
   return (
-    <>
-      <section className='about'>
+      <section className='about '>
         <div className='about-container'>
-          {about.map((val) => (
-            <>
-              <div className='left' data-aos='fade-down-left'>
+          {about.map((val,index) => (
+            <div key={index} className="flex-2" >
+              <div  className='left' data-aos='fade-down-left'>
                 <img className="about-image" src={val.cover} alt='' />
               </div>
               <div className='right' data-aos='fade-down-left'>
@@ -49,10 +48,9 @@ export const About = () => {
                 {/* <button onClick={handleMailClick}>Mail Us</button> */}
                 <button className='primaryBtn'  onClick={handleDownload}>More About Us</button>
               </div>
-            </>
+            </div>
           ))}
         </div>
       </section>
-    </>
   )
 }

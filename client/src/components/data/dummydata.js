@@ -1,4 +1,4 @@
-import {  PsychologyAlt, PrecisionManufacturing, EmojiObjects, Satellite, Tune, CloudOutlined, FavoriteBorder, Public, PersonOutlined, AddLocationAltOutlined, PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram, YouTube } from "@mui/icons-material";
+import {  PsychologyAlt, PrecisionManufacturing, EmojiObjects, Satellite, Tune, CloudOutlined, FavoriteBorder, Public, PersonOutlined, AddLocationAltOutlined, PhoneIphone, EmailOutlined,  Twitter, Instagram } from "@mui/icons-material";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 export const navlink = [
